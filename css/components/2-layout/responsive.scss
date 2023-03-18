@@ -1,0 +1,137 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+    // @include intro-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    p {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    @include intro-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+    @include intro-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+    h1 {
+        font-size: 50px;
+    }
+    h5 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 20px;
+        line-height: 26px;
+        &.sm {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    .input {
+        max-width: 140px;
+        input {
+            font-size: 20px;
+            line-height: 26px;
+        }
+        button {
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+    @include intro-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+    h1 {
+        font-size: 45px;
+    }
+    @include intro-lg-xlg;
+}
+// 930px
+@include md-lg {
+    h1 {
+        font-size: 40px;
+    }
+    h5 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 22px;
+        &.sm {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+    @include intro-md-lg;
+}
+// 750px
+@include sm-md {
+    h1 {
+        font-size: 60px;
+    }
+    h5 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    p {
+        font-size: 30px;
+        line-height: 40px;
+        &.sm {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+    .input {
+        max-width: 155px;
+        input {
+            font-size: 24px;
+            line-height: 32px;
+        }
+        button {
+            font-size: 24px;
+            line-height: 32px;
+        }
+        &.active {
+            max-width: 500px;
+        }
+    }
+    @include intro-sm-md;
+}
+// 650px
+@include sm-md-extra {
+    @include intro-sm-md-extra;
+}
+// 540px
+@include xsm-sm  {
+    @include intro-xsm-sm;
+}
+// 440px
+@include xxsm-xsm  {
+    @include intro-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm  {
+    // @include intro-xxxsm-xxsm;
+}
+

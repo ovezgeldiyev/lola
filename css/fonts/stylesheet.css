@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Gerbera';
+    src: url('./Gerbera/Gerbera-Light.otf') format('woff2');
+    font-weight: light;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gerbera';
+    src: url('./Gerbera/Gerbera-Regular.otf') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gerbera';
+    src: url('./Gerbera/Gerbera-Medium.otf') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
